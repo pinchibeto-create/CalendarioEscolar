@@ -73,36 +73,7 @@ padding:17px 20px;box-shadow:0 10px 24px rgba(6,73,92,.24);cursor:pointer}
 .subscribe-icon{font-size:25px}
 .subscribe-note{margin-top:10px;text-align:center;color:var(--muted);font-size:12px;line-height:1.45;padding:0 8px}
 
-
-.subscribe-btn{text-decoration:none}
-.fallback-box{margin-top:12px;padding:13px 14px;border-radius:15px;background:#f7faf8;border:1px solid var(--line);text-align:center}
-.fallback-box div{font-size:12px;color:var(--muted);margin-bottom:5px}
-.fallback-link{font-size:13px;font-weight:800;color:var(--brand);text-decoration:none}
-
-
-.platform-cta-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
-.platform-btn{display:flex;align-items:center;gap:14px;border-radius:19px;padding:17px 18px;
-text-decoration:none;border:0;box-shadow:0 10px 24px rgba(6,73,92,.18);min-height:96px}
-.platform-copy b{display:block;font-size:16px;line-height:1.25}
-.platform-copy small{display:block;margin-top:4px;line-height:1.35;font-weight:600}
-.platform-emoji{font-size:28px;line-height:1}
-
-.platform-logo{width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 34px}
-.platform-logo svg{width:34px;height:34px;display:block}
-.apple-logo{color:#ffffff}
-.android-logo{color:#ffffff}
-
-.apple-btn{background:linear-gradient(135deg,var(--brand),#0d5f6d);color:#fff}
-.apple-btn small{color:#dcedeb}
-.android-btn{background:linear-gradient(135deg,var(--brand2),#3d8f72);color:#fff}
-.android-btn small{color:#e7f5ee}
-.platform-note{margin-top:12px;text-align:center;color:var(--muted);font-size:12px;line-height:1.45;padding:0 8px}
-.fallback-box{margin-top:12px;padding:13px 14px;border-radius:15px;background:#f7faf8;border:1px solid var(--line);text-align:center}
-.fallback-box div{font-size:12px;color:var(--muted);margin-bottom:5px}
-.fallback-link{font-size:13px;font-weight:800;color:var(--brand);text-decoration:none}
-.recommended-pill{display:inline-block;margin-top:8px;padding:6px 10px;border-radius:999px;background:#eef6f3;color:var(--brand);font-size:12px;font-weight:800}
-
-@media(max-width:650px){.hero{padding:24px 20px;border-radius:22px}.stats{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.event{grid-template-columns:1fr;gap:4px}.panel{padding:20px}.platform-cta-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.hero{padding:24px 20px;border-radius:22px}.stats{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.event{grid-template-columns:1fr;gap:4px}.panel{padding:20px}}
 </style>
 </head>
 <body>
@@ -133,49 +104,19 @@ text-decoration:none;border:0;box-shadow:0 10px 24px rgba(6,73,92,.18);min-heigh
       <input id="reminders" type="checkbox" checked>
       <span><b>Incluir recordatorios</b><br><small>CTE y suspensiones: 1 día antes. Registro de calificaciones: 7 días y 1 día antes.</small></span>
     </label>
-    
-<div class="subscribe-box">
-  <div class="platform-cta-grid">
-    <a class="platform-btn apple-btn" href="webcal://magical-cendol-e4371f.netlify.app/Calendario_SEP_2026-2027_Educacion_Basica.ics" id="appleCalendarBtn">
-      <span class="platform-logo apple-logo" aria-hidden="true">
-<svg viewBox="0 0 24 24" role="img" focusable="false">
-  <path fill="currentColor" d="M16.37 12.95c.03 3.12 2.73 4.16 2.76 4.17-.02.07-.43 1.5-1.41 2.96-.85 1.26-1.73 2.52-3.13 2.55-1.38.03-1.82-.82-3.39-.82-1.57 0-2.06.79-3.36.85-1.35.05-2.39-1.36-3.24-2.62C2.87 17.56 1.55 13.1 3.35 9.97c.89-1.55 2.49-2.53 4.23-2.56 1.32-.03 2.56.89 3.39.89.83 0 2.39-1.1 4.03-.94.69.03 2.63.28 3.87 2.1-.1.06-2.31 1.35-2.5 4.49z"/>
-  <path fill="currentColor" d="M14.89 4.59c.71-.86 1.19-2.05 1.06-3.24-1.02.04-2.25.68-2.98 1.54-.66.76-1.24 1.98-1.08 3.15 1.14.09 2.29-.58 3-1.45z"/>
-</svg>
-</span>
-      <span class="platform-copy">
-        <b>Agregar a Calendario de Apple</b>
-        <small>Ideal para iPhone y iPad · abre la suscripción del calendario</small>
-      </span>
-    </a>
-
-    <a class="platform-btn android-btn" href="https://calendar.google.com/calendar/u/0/r?cid=https%3A%2F%2Fmagical-cendol-e4371f.netlify.app%2FCalendario_SEP_2026-2027_Educacion_Basica.ics" target="_blank" rel="noopener" id="googleCalendarBtn">
-      <span class="platform-logo android-logo" aria-hidden="true">
-<svg viewBox="0 0 24 24" role="img" focusable="false">
-  <path fill="currentColor" d="M7.3 8.2 5.92 5.81a.6.6 0 1 1 1.04-.6L8.38 7.7a7.72 7.72 0 0 1 7.24 0l1.42-2.49a.6.6 0 1 1 1.04.6L16.7 8.2c1.4.94 2.3 2.44 2.3 4.14H5c0-1.7.9-3.2 2.3-4.14ZM9.5 10.6a.7.7 0 1 0 0-1.4.7.7 0 0 0 0 1.4Zm5 0a.7.7 0 1 0 0-1.4.7.7 0 0 0 0 1.4Z"/>
-  <path fill="currentColor" d="M5.6 13.4h1v5.1a1.5 1.5 0 0 0 3 0v-5.1h1v5.1a1.5 1.5 0 0 0 3 0v-5.1h1v5.1a1.5 1.5 0 0 0 3 0v-5.1h1c.66 0 1.2-.54 1.2-1.2v-.5H4.4v.5c0 .66.54 1.2 1.2 1.2Zm-1.7 0A1.4 1.4 0 0 0 2.5 14.8v3.4a1.4 1.4 0 0 0 2.8 0v-3.4a1.4 1.4 0 0 0-1.4-1.4Zm16.2 0a1.4 1.4 0 0 0-1.4 1.4v3.4a1.4 1.4 0 0 0 2.8 0v-3.4a1.4 1.4 0 0 0-1.4-1.4Z"/>
-</svg>
-</span>
-      <span class="platform-copy">
-        <b>Agregar a Google Calendar</b>
-        <small>Ideal para Android · abre Google Calendar para añadir el calendario</small>
-      </span>
-    </a>
-  </div>
-
-  <div class="platform-note" id="platformNote">
-    <b>Recomendación:</b> en iPhone abre esta página en <b>Safari</b> y toca el botón de Apple. En Android inicia sesión con tu cuenta de Google y toca el botón de Google Calendar.
-  </div>
-
-  <div class="fallback-box">
-    <div><b>Si algún botón no se abre:</b></div>
-    <a class="fallback-link" href="https://magical-cendol-e4371f.netlify.app/Calendario_SEP_2026-2027_Educacion_Basica.ics" target="_blank" rel="noopener">
-      Abrir archivo de calendario directamente (.ics)
-    </a>
-  </div>
-</div>
-
-<div class="controls">
+    <div class="subscribe-box">
+      <button class="subscribe-btn" onclick="addCalendarToPhone()">
+        <span class="subscribe-icon">📅</span>
+        <span>
+          <b>Agregar Calendario SEP a mi celular</b>
+          <small>En iPhone abre directamente la suscripción del calendario</small>
+        </span>
+      </button>
+      <div class="subscribe-note" id="subscribeNote">
+        Al tocar el botón, iPhone abrirá la pantalla de suscripción. Sólo tendrás que confirmar “Suscribirse”.
+      </div>
+    </div>
+    <div class="controls">
       <button class="secondary" onclick="downloadICS()">Descargar .ICS personalizado</button>
       <button class="secondary" onclick="selectAll(true)">Seleccionar todo</button>
       <button class="secondary" onclick="selectAll(false)">Quitar todo</button>
@@ -238,25 +179,7 @@ function render() {
   list.innerHTML=selected.map(e=>`<div class="event"><div class="date">${fmt(e.start)}${e.end!==e.start?' — '+fmt(e.end):''}</div><div><div class="ttl">${e.title}</div><div class="cat">${e.category}</div></div></div>`).join('');
 }
 function selectAll(on) {
-  document.querySelectorAll('[data-cat]').forEach(x=>x.checked=on); 
-(function(){
-  const ua = navigator.userAgent || '';
-  const isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-  const isAndroid = /Android/i.test(ua);
-  const note = document.getElementById('platformNote');
-  const apple = document.getElementById('appleCalendarBtn');
-  const google = document.getElementById('googleCalendarBtn');
-
-  if (isIOS) {
-    apple.insertAdjacentHTML('beforeend','<span class="recommended-pill">Recomendado para este dispositivo</span>');
-    note.innerHTML = '<b>Detectamos un iPhone o iPad.</b> Usa <b>Agregar a Calendario de Apple</b> y confirma <b>Suscribirse</b> en Safari.';
-  } else if (isAndroid) {
-    google.insertAdjacentHTML('beforeend','<span class="recommended-pill">Recomendado para este dispositivo</span>');
-    note.innerHTML = '<b>Detectamos Android.</b> Usa <b>Agregar a Google Calendar</b>. Si no se abre bien, utiliza el enlace del archivo .ics como respaldo.';
-  }
-})();
-
-render();
+  document.querySelectorAll('[data-cat]').forEach(x=>x.checked=on); render();
 }
 function esc(s) {
   return s.replaceAll('\\','\\\\').replaceAll('\n','\\n').replaceAll(',','\\,').replaceAll(';','\\;');
@@ -284,6 +207,31 @@ function vevent(e,i,withReminders) {
   }
   a.push('END:VEVENT');
   return a.join('\r\n');
+}
+
+function addCalendarToPhone() {
+  // A true calendar subscription requires the page and .ics file to be hosted over HTTPS.
+  if (location.protocol === 'http:' || location.protocol === 'https:') {
+    const calendarHttps = `${location.origin}/Calendario_SEP_2026-2027_Educacion_Basica.ics`;
+    const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+                  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+    if (isiOS) {
+      // iPhone/iPad: opens the native calendar-subscription flow.
+      location.href = calendarHttps.replace(/^https:/i, 'webcal:').replace(/^http:/i, 'webcal:');
+      return;
+    }
+
+    // Other devices: open the hosted ICS directly.
+    location.href = calendarHttps;
+    return;
+  }
+
+  // If the HTML is opened locally, subscription URLs cannot point to a local file.
+  // Fall back to the downloadable ICS and explain that publishing the site enables one-tap.
+  document.getElementById('subscribeNote').innerHTML =
+    '<b>Esta vista está abierta como archivo local.</b> Para usar la suscripción de un toque, publica esta carpeta en Netlify/Lovable. Mientras tanto se descargará el .ICS.';
+  downloadICS();
 }
 
 function downloadICS() {
