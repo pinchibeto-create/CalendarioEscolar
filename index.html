@@ -73,6 +73,12 @@ padding:17px 20px;box-shadow:0 10px 24px rgba(6,73,92,.24);cursor:pointer}
 .subscribe-icon{font-size:25px}
 .subscribe-note{margin-top:10px;text-align:center;color:var(--muted);font-size:12px;line-height:1.45;padding:0 8px}
 
+
+.subscribe-btn{text-decoration:none}
+.fallback-box{margin-top:12px;padding:13px 14px;border-radius:15px;background:#f7faf8;border:1px solid var(--line);text-align:center}
+.fallback-box div{font-size:12px;color:var(--muted);margin-bottom:5px}
+.fallback-link{font-size:13px;font-weight:800;color:var(--brand);text-decoration:none}
+
 @media(max-width:650px){.hero{padding:24px 20px;border-radius:22px}.stats{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.event{grid-template-columns:1fr;gap:4px}.panel{padding:20px}}
 </style>
 </head>
@@ -105,17 +111,26 @@ padding:17px 20px;box-shadow:0 10px 24px rgba(6,73,92,.24);cursor:pointer}
       <span><b>Incluir recordatorios</b><br><small>CTE y suspensiones: 1 día antes. Registro de calificaciones: 7 días y 1 día antes.</small></span>
     </label>
     <div class="subscribe-box">
-      <button class="subscribe-btn" onclick="addCalendarToPhone()">
+      <a class="subscribe-btn" href="webcal://magical-cendol-e4371f.netlify.app/Calendario_SEP_2026-2027_Educacion_Basica.ics" id="subscribeBtn">
         <span class="subscribe-icon">📅</span>
         <span>
           <b>Agregar Calendario SEP a mi celular</b>
           <small>En iPhone abre directamente la suscripción del calendario</small>
         </span>
-      </button>
-      <div class="subscribe-note" id="subscribeNote">
-        Al tocar el botón, iPhone abrirá la pantalla de suscripción. Sólo tendrás que confirmar “Suscribirse”.
+      </a>
+
+      <div class="subscribe-note">
+        En iPhone, abre esta página en <b>Safari</b> y toca el botón. Después confirma <b>Suscribirse</b>.
+      </div>
+
+      <div class="fallback-box">
+        <div><b>¿No se abrió?</b></div>
+        <a class="fallback-link" href="https://magical-cendol-e4371f.netlify.app/Calendario_SEP_2026-2027_Educacion_Basica.ics">
+          Abrir archivo de calendario directamente
+        </a>
       </div>
     </div>
+
     <div class="controls">
       <button class="secondary" onclick="downloadICS()">Descargar .ICS personalizado</button>
       <button class="secondary" onclick="selectAll(true)">Seleccionar todo</button>
@@ -207,31 +222,6 @@ function vevent(e,i,withReminders) {
   }
   a.push('END:VEVENT');
   return a.join('\r\n');
-}
-
-function addCalendarToPhone() {
-  // A true calendar subscription requires the page and .ics file to be hosted over HTTPS.
-  if (location.protocol === 'http:' || location.protocol === 'https:') {
-    const calendarHttps = `${location.origin}/Calendario_SEP_2026-2027_Educacion_Basica.ics`;
-    const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
-                  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-
-    if (isiOS) {
-      // iPhone/iPad: opens the native calendar-subscription flow.
-      location.href = calendarHttps.replace(/^https:/i, 'webcal:').replace(/^http:/i, 'webcal:');
-      return;
-    }
-
-    // Other devices: open the hosted ICS directly.
-    location.href = calendarHttps;
-    return;
-  }
-
-  // If the HTML is opened locally, subscription URLs cannot point to a local file.
-  // Fall back to the downloadable ICS and explain that publishing the site enables one-tap.
-  document.getElementById('subscribeNote').innerHTML =
-    '<b>Esta vista está abierta como archivo local.</b> Para usar la suscripción de un toque, publica esta carpeta en Netlify/Lovable. Mientras tanto se descargará el .ICS.';
-  downloadICS();
 }
 
 function downloadICS() {
