@@ -1,0 +1,17 @@
+AULA RAÍZ — CALENDARIO SEP 2026-2027
+
+Archivos:
+- index.html
+- Calendario_SEP_2026-2027_Educacion_Basica.ics
+- netlify.toml
+
+Para que el botón "Agregar Calendario SEP a mi celular" funcione como suscripción
+en iPhone, sube LOS TRES ARCHIVOS juntos a Netlify (o a cualquier hosting HTTPS)
+manteniendo el .ics en la raíz del sitio.
+
+En iPhone:
+1. Abrir la página publicada en Safari.
+2. Tocar "Agregar Calendario SEP a mi celular".
+3. iOS abrirá Calendario y pedirá confirmar "Suscribirse".
+
+La confirmación del sistema de Apple es obligatoria.

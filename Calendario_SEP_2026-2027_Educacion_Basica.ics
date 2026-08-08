@@ -1,0 +1,553 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//Calendario Escolar SEP 2026-2027//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SEP — Ciclo Escolar 2026-2027
+X-WR-CALDESC:Calendario de Educación Básica SEP 2026-2027
+BEGIN:VEVENT
+UID:sep-2026-2027-001@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260829
+SUMMARY:🟠 CTE — Fase Intensiva
+DESCRIPTION:Consejo Técnico Escolar\, Fase Intensiva. Actividad para pers
+ onal docente y directivo previa al inicio de clases.\nFuente: SEP — Cale
+ ndario Escolar 2026-2027.
+CATEGORIES:CTE
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟠 CTE — Fase Intensiva
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-002@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:🟢 Inicio de clases — Ciclo 2026-2027
+DESCRIPTION:Inicio oficial de clases para educación preescolar\, primaria
+  y secundaria.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Ciclo escolar
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:🟢 Inicio de clases — Ciclo 2026-2027
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟢 Inicio de clases — Ciclo 2026-2027
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-003@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:🟣 Jornada de concientización sobre abuso sexual y maltrato infant
+ il
+DESCRIPTION:Jornada de concientización sobre la gravedad del abuso sexual
+  y el maltrato infantil.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Jornada especial
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟣 Jornada de concientización sobre abuso sexual y maltrato in
+ fantil
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-004@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🔴 Suspensión de labores docentes
+DESCRIPTION:Suspensión de labores docentes marcada en el calendario escol
+ ar SEP 2026-2027.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Suspensiones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔴 Suspensión de labores docentes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-005@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:🟠 CTE — Sesión Ordinaria
+DESCRIPTION:Consejo Técnico Escolar. Sin clases regulares para estudiante
+ s.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:CTE
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟠 CTE — Sesión Ordinaria
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-006@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🟠 CTE — Sesión Ordinaria
+DESCRIPTION:Consejo Técnico Escolar. Sin clases regulares para estudiante
+ s.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:CTE
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟠 CTE — Sesión Ordinaria
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-007@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:🔴 Suspensión de labores docentes
+DESCRIPTION:Suspensión de labores docentes marcada en el calendario escol
+ ar SEP 2026-2027.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Suspensiones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔴 Suspensión de labores docentes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-008@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:🔵 Registro de calificaciones
+DESCRIPTION:Fecha programada para registro de calificaciones en los siste
+ mas de control escolar.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Calificaciones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:🔵 Registro de calificaciones
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔵 Registro de calificaciones
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-009@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:🔴 Suspensión de labores docentes
+DESCRIPTION:Suspensión de labores docentes marcada en el calendario escol
+ ar SEP 2026-2027.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Suspensiones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔴 Suspensión de labores docentes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-010@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261127
+SUMMARY:🟣 Registro y comunicación de resultados — 1er periodo
+DESCRIPTION:Periodo para registro y comunicación de los resultados de la 
+ evaluación.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Resultados
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟣 Registro y comunicación de resultados — 1er periodo
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-011@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:🟠 CTE — Sesión Ordinaria
+DESCRIPTION:Consejo Técnico Escolar. Sin clases regulares para estudiante
+ s.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:CTE
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟠 CTE — Sesión Ordinaria
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-012@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270106
+SUMMARY:🟡 Vacaciones de invierno
+DESCRIPTION:Periodo vacacional de invierno. Las clases se reanudan el 7 d
+ e enero de 2027 debido a la suspensión del 6 de enero.\nFuente: SEP — Ca
+ lendario Escolar 2026-2027.
+CATEGORIES:Vacaciones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:🟡 Vacaciones de invierno
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-013@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:🔴 Suspensión de labores docentes
+DESCRIPTION:Suspensión de labores docentes\; la fecha coincide con el per
+ iodo vacacional de invierno.\nFuente: SEP — Calendario Escolar 2026-2027
+ .
+CATEGORIES:Suspensiones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-014@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🔴 Suspensión de labores docentes
+DESCRIPTION:Suspensión de labores docentes\; la fecha coincide con el per
+ iodo vacacional de invierno.\nFuente: SEP — Calendario Escolar 2026-2027
+ .
+CATEGORIES:Suspensiones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-015@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:🔴 Suspensión de labores docentes — Día de Reyes
+DESCRIPTION:Suspensión de labores docentes. Reanudación de clases: 7 de e
+ nero de 2027.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Suspensiones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔴 Suspensión de labores docentes — Día de Reyes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-016@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:🟠 CTE — Sesión Ordinaria
+DESCRIPTION:Consejo Técnico Escolar. Sin clases regulares para estudiante
+ s.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:CTE
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟠 CTE — Sesión Ordinaria
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-017@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:🔴 Suspensión de labores docentes
+DESCRIPTION:Suspensión de labores docentes marcada en el calendario escol
+ ar SEP 2026-2027.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Suspensiones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔴 Suspensión de labores docentes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-018@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270213
+SUMMARY:🟤 Preinscripciones ciclo 2027-2028
+DESCRIPTION:Periodo de preinscripción a preescolar\, primer grado de prim
+ aria y primer grado de secundaria para el ciclo 2027-2028.\nFuente: SEP 
+ — Calendario Escolar 2026-2027.
+CATEGORIES:Preinscripciones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:🟤 Preinscripciones ciclo 2027-2028
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟤 Preinscripciones ciclo 2027-2028
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-019@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:🟠 CTE — Sesión Ordinaria
+DESCRIPTION:Consejo Técnico Escolar. Sin clases regulares para estudiante
+ s.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:CTE
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟠 CTE — Sesión Ordinaria
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-020@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:🔵 Registro de calificaciones
+DESCRIPTION:Fecha programada para registro de calificaciones en los siste
+ mas de control escolar.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Calificaciones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:🔵 Registro de calificaciones
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔵 Registro de calificaciones
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-021@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:🔴 Suspensión de labores docentes
+DESCRIPTION:Suspensión de labores docentes marcada en el calendario escol
+ ar SEP 2026-2027.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Suspensiones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔴 Suspensión de labores docentes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-022@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270320
+SUMMARY:🟣 Registro y comunicación de resultados — 2º periodo
+DESCRIPTION:Periodo para registro y comunicación de los resultados de la 
+ evaluación.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Resultados
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟣 Registro y comunicación de resultados — 2º periodo
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-023@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270403
+SUMMARY:🟡 Vacaciones de primavera
+DESCRIPTION:Periodo vacacional de primavera/Semana Santa. Reanudación de 
+ clases: lunes 5 de abril de 2027.\nFuente: SEP — Calendario Escolar 2026
+ -2027.
+CATEGORIES:Vacaciones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:🟡 Vacaciones de primavera
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-024@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:🟠 CTE — Sesión Ordinaria
+DESCRIPTION:Consejo Técnico Escolar. Sin clases regulares para estudiante
+ s.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:CTE
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟠 CTE — Sesión Ordinaria
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-025@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:🔴 Suspensión de labores docentes
+DESCRIPTION:Suspensión de labores docentes marcada en el calendario escol
+ ar SEP 2026-2027.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Suspensiones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔴 Suspensión de labores docentes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-026@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:🟠 CTE — Sesión Ordinaria
+DESCRIPTION:Consejo Técnico Escolar. Sin clases regulares para estudiante
+ s.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:CTE
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟠 CTE — Sesión Ordinaria
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-027@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:🟠 CTE — Sesión Ordinaria
+DESCRIPTION:Consejo Técnico Escolar. Sin clases regulares para estudiante
+ s.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:CTE
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟠 CTE — Sesión Ordinaria
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-028@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:🔵 Registro de calificaciones
+DESCRIPTION:Fecha programada para registro de calificaciones en los siste
+ mas de control escolar.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Calificaciones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:🔵 Registro de calificaciones
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🔵 Registro de calificaciones
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-029@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270710
+SUMMARY:🟣 Registro y comunicación de resultados — 3er periodo
+DESCRIPTION:Periodo final para registro y comunicación de los resultados 
+ de la evaluación.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Resultados
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🟣 Registro y comunicación de resultados — 3er periodo
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-030@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:🏁 Fin de clases — Ciclo 2026-2027
+DESCRIPTION:Fin oficial de clases del ciclo escolar 2026-2027 para educac
+ ión básica.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Ciclo escolar
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:🏁 Fin de clases — Ciclo 2026-2027
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sep-2026-2027-031@chatgpt.local
+DTSTAMP:20260808T195100Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270711
+SUMMARY:☀️ Inicio del receso de fin de ciclo
+DESCRIPTION:Inicio del receso de clases posterior al cierre del ciclo esc
+ olar 2026-2027.\nFuente: SEP — Calendario Escolar 2026-2027.
+CATEGORIES:Vacaciones
+URL:https://calendarioescolar.sep.gob.mx/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
